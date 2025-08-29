@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Bookstore</title>
+  <meta name="description" content="Welcome to My Bookstore — your source for great reads for all ages.">
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>📚 My Bookstore</h1>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#books">Books</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main layout using CSS Grid -->
+  <main class="layout">
+    <aside class="sidebar">
+      <h2>Categories</h2>
+      <ul>
+        <li>Fiction</li>
+        <li>Non-fiction</li>
+        <li>Children's Books</li>
+        <li>Self-Help</li>
+      </ul>
+    </aside>
+
+    <section id="about" aria-labelledby="about-heading" class="content">
+      <h2 id="about-heading">About Us</h2>
+      <p>Welcome to My Bookstore! We provide a curated selection of books for all readers. Whether you love fiction, non-fiction, or learning something new, we have something for you.</p>
+    </section>
+
+    <section id="books" class="content">
+      <h2>Featured Books</h2>
+      <div class="book-cards">
+        <article class="card">
+          <h3>The Great Adventure</h3>
+          <p>A thrilling journey through uncharted lands.</p>
+        </article>
+        <article class="card">
+          <h3>Learning Made Easy</h3>
+          <p>Educational resources for curious minds.</p>
+        </article>
+        <article class="card">
+          <h3>Fictional Wonders</h3>
+          <p>Explore worlds of imagination and creativity.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <p>&copy; 2025 My Bookstore. All rights reserved.</p>
+  </footer>
+</body>
+</html>
